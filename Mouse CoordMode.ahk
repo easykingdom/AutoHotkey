@@ -10,7 +10,7 @@ CoordMode, Mouse, Relative ; Set the coordinate mode to the active window
 x := 866 ; Set the X-coordinate of the button relative to the active window
 y := 642 ; Set the Y-coordinate of the button relative to the active window
 
-Loop, 2 { ; Loop 2 times
+Loop, 20 { ; Loop 20 times
 WinWait, Bio-Formats Import Options ; Wait for the pop-up window to appear
 WinActivate, Bio-Formats Import Options ; Activate the pop-up window
 
